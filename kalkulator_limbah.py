@@ -3,8 +3,6 @@ import streamlit.web.cli as stcli
 import math
 import os
 import sys
-if __name__ == "__main__":
-    run_streamlit_app()
 
 # --- FUNGSI WRAPPER UNTUK EXECUTABLE ---
 def resolve_path(path):
@@ -127,7 +125,7 @@ if __name__ == "__main__":
             "--server.headless=false",
             "--global.developmentMode=false",
         ]
-=======
+
 import streamlit as st
 import streamlit.web.cli as stcli
 import math
@@ -255,5 +253,4 @@ if __name__ == "__main__":
             "--server.headless=false",
             "--global.developmentMode=false",
         ]
->>>>>>> b049931324e9a1ea60e0fb24188c05732ba8b654
-        sys.exit(stcli.main())
+sys.exit(stcli.main())
