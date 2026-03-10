@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import streamlit.web.cli as stcli
 import math
