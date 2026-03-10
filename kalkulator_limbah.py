@@ -4,6 +4,8 @@ import streamlit.web.cli as stcli
 import math
 import os
 import sys
+if __name__ == "__main__":
+    run_streamlit_app()
 
 # --- FUNGSI WRAPPER UNTUK EXECUTABLE ---
 def resolve_path(path):
